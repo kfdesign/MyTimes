@@ -4,6 +4,11 @@ p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  margin-top: 0;
+}
+
+p.space {
+  margin-top: 17px;
 }
 
 p.title {
@@ -54,7 +59,7 @@ a.navlink {
   /* What do the numbers for flex: grow; represent? */
   flex-grow: 1;
   align-items: center;
-  border: 1px solid cyan;
+  /* border: 1px solid cyan; */
 }
 
 .mytimes {
@@ -79,13 +84,13 @@ a.navlink {
   align-items: flex-start;
   margin: auto;
   width: 1300px;
-  border: 4px solid black;
+  /* border: 4px solid black; */
 }
 
 .column {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid magenta;
+  /* border: 2px solid magenta; */
   margin: 30px 30px 0px 0px;
 }
 
@@ -104,7 +109,7 @@ a.navlink {
 
 .column.story {
   margin: 0;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   background-repeat: no-repeat;
 }
 
