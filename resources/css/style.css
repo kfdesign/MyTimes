@@ -35,6 +35,9 @@ a.navlink {
 .news-head {
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
+  font-family: Verdana;
+  text-transform: uppercase;
 }
 
 .news-items {
@@ -42,7 +45,10 @@ a.navlink {
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
-}
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+  margin: 0px;
+ }
 
 
 /* HEADER LEVEL CSS */
@@ -118,6 +124,7 @@ a.navlink {
 
 .column.small {
   width: 240px;
+  flex-direction: column;
 }
 
 .column.story {
@@ -159,9 +166,8 @@ a.navlink {
 
 .news {
   display: inline-block;
-  flex-wrap: wrap;
-}
+  justify-content: flex-start;
+  }
 
 .news-span {
-  flex-grow: 1;
 }
