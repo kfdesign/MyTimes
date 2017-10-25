@@ -11,8 +11,12 @@ p.space {
   margin-top: 17px;
 }
 
-p.title {
+h4.title {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
   color: MediumAquamarine;
+  text-align: center;
 }
 
 a.navlink {
@@ -50,6 +54,22 @@ a.navlink {
   margin: 0px;
  }
 
+.footer-items {
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+
+}
+
+.footer-title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  width: 120px;
+  border-right: 2px solid white;
+  margin-right: 20px;
+}
 
 /* HEADER LEVEL CSS */
 
@@ -169,5 +189,17 @@ a.navlink {
   justify-content: flex-start;
   }
 
-.news-span {
+.footer {
+  position: relative;
+  top: 135px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+}
+
+.copyright {
+  margin-top: 10px;
 }
